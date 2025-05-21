@@ -1,0 +1,8 @@
+hpa:
+  utilisation: 5
+deployment:
+  replicas: 1
+  version: IMAGE_VERSION
+  imageURL: 010526266250.dkr.ecr.us-east-1.amazonaws.com/cluster/frontend
+tgb:
+  arn: arn:aws:elasticloadbalancing:us-east-1:010526266250:targetgroup/cluster-developer-ingress-alb/e90a8986901ee4c8
